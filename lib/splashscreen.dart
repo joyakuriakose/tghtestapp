@@ -18,7 +18,7 @@ class SplashScreennState extends State<SplashScreenn> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 13),
+        Duration(seconds: 3),
         () => Navigator.pushReplacement(
             context, MaterialPageRoute(builder: (context) => HomePage())));
   }
@@ -29,9 +29,7 @@ class SplashScreennState extends State<SplashScreenn> {
         backgroundColor: Colors.white12,
         body: Center(
           child: Container(
-            width: 150,height: 150,
-
-            child: Image.network("https://w0.peakpx.com/wallpaper/404/508/HD-wallpaper-flutter-logo-flutter-code-computer-programming-logo.jpg"),
+            child: Text('loading..', style: TextStyle(color: Colors.green, fontSize: 25),),
           ),
         ));
   }

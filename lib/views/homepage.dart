@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tghtestapp/views/widgets/languagebutton.dart';
 import 'package:tghtestapp/views/widgets/textboxes.dart';
 
-void main() {
-  runApp(MaterialApp(home: HomePage()));
-}
 
 class HomePage extends StatelessWidget {
   @override
